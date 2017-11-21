@@ -1,8 +1,53 @@
-.top-right-nav{
-	margin-left: 85%;
+body {
+	font-family: arial, sans-serrif;
 }
 
-.logo {
-	display: block;
-	margin: 10em auto;
+.top-left{
+	display: inline-block;
+	font-size: 13px;
+	margin-top: 1em;
 }
+
+.top-right{
+	display: inline-block;
+	font-size: 13px;
+	float: right;
+	margin-top: 1em;
+}
+
+li {
+	display: inline;
+	margin: 0 .75em;
+}
+
+ul {
+	list_style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited, a:hover{
+color: black;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#sign-in{
+	display: inline;
+	background-color: #4285f4;
+	padding: .5em;
+}
+
+#sign-in li a {
+	color: white;
+}
+
+.google-logo {
+	justify-content: center;
+	}
